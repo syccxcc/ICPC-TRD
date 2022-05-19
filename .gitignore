@@ -6,3 +6,5 @@ a.out
 header.tmp
 .vscode
 *.pdf
+.idea/
+ICPC-TRD.iml
