@@ -1,6 +1,15 @@
+/**
+ * Author: cp algorithms
+ * Date: 2019-04-11
+ * License: Unknown
+ * Source: Rabin-Karp
+ * Description: Rabin-Karp algorithm for string matching.
+ *  Determine all occurrences of string t in string s.
+ * Time: O(|s| + |t|)
+ * Status: stress-tested
+ */
 #pragma once
 
-// Rabin-Karp algorithm for string hashing.
 vector<int> rabin_karp(string const& s, string const& t) {
     const int p = 31;
     const int m = 1e9 + 9;
